@@ -513,8 +513,11 @@ a {
     box-shadow: 0 2px 15px rgb(0 0 0 / 40%);
 }
 @media (max-width: 767px) {
+    .articles .box-content .box {
+        transition: 0.2s;
+    }
     .articles .box-content .box:hover {
-        transform: scale(1.03);
+        transform: scale(1.04);
     }
 }
 .articles .box-content .box:hover img {
